@@ -128,7 +128,7 @@ p {
 
 
 #welcome {
-    background: url('/imagenes/show.jpeg')no-repeat center center/cover;
+    background: url('./imagenes/show.jpeg')no-repeat center center/cover;
   height: 850px;
 
 
@@ -250,7 +250,7 @@ p {
     width: 100%;
     height: 620px;
     text-align: left;
-    background: url('/imagenes/familia.jpeg')no-repeat center center/cover;
+    background: url('./imagenes/familia.jpeg')no-repeat center center/cover;
 
 }
 
