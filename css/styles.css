@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+
+}
+
+p {
+  margin: 10px 0;
+}
+/* Clases Generales */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+  margin: auto;
+  max-width: 8000px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+ /* Navbar */
+ #navbar {
+   background: #ffffff;
+   color: #ffffff;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: #cc0000;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #cc0000;
+  background: #cc0000;
+  color: #ffffff;
+}
+
+
+/*------<!--Paso 5--> */
+.text-primary {
+  color:#ffffff;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  0px 0px black,
+               0px 1px 1px black;
+}
+
+.text-primary1 {
+  color:#cc0000;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+.text-primary2 {
+  color:rgba(51, 217, 44, 0.83);
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  0px 0px black,
+               0px 1px 1px black;
+}
+
+.lead {
+  font-size: 30px;
+
+      text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #cc0000;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(255, 87, 87);
+}
+/* Pie de página */
+#main-footer {
+  text-align: center;
+  background: #cc0000;
+  color: #fff;
+  padding: 20px;
+}
+
+
+#welcome {
+    background: url('/imagenes/show.jpeg')no-repeat center center/cover;
+  height: 850px;
+
+
+}
+
+#welcome .welcome-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: white;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px
+
+}
+
+#box11{
+    width: 24%;
+    height: 200px;
+    background-color: rgb(227, 0, 0);
+    float: left;
+    opacity: 0.9;
+    padding-right:5px;
+    padding-left:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+    #box12{
+        width: 24%;
+        height: 200px;
+        background-color: rgb(227, 0, 0);
+        float: left;
+        opacity: 0.9;
+        padding-right:5px;
+        padding-left:5px;
+        margin-right:5px;
+        margin-left:5px;
+        text-align: center;
+}
+
+#box13{
+    width: 24%;
+    height: 200px;
+  background-color: rgb(227, 0, 0);
+    float: left;
+    opacity: 0.9;
+    padding-right:5px;
+    padding-left:5px;
+    margin-right:5px;
+    margin-left:5px;
+    text-align: center;
+}
+
+#box14 {
+    width: 24%;
+    height: 200px;
+    background-color:rgb(227, 0, 0);
+    float: left;
+    opacity: 0.9;
+    padding-right:5px;
+    padding-left:5px;
+    margin-right:5px;
+    margin-left:5px;
+    text-align: center;
+}
+
+#mapa{
+    float: right;
+    width: auto;
+    height: auto;
+    padding-right: 30px;
+    padding-top: 55px
+   }
+#dir{
+    width: auto;
+    width: auto;
+    font-size: 3rem;
+    float: left;
+    padding-left: 30px;
+        padding-top: 55px
+
+}
+
+/*Diseño de página de paquetes*/
+#paquetes {
+  color:#cc0000;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              1px  0px 0px black,
+               0px 1px 1px black;
+     text-align: center;
+}
+
+#box20{
+
+  float: inherit;
+    width: 100%;
+    height: 620px;
+    text-align: left;
+    background: url('/imagenes/familia.jpeg')no-repeat center center/cover;
+
+}
+
+
+#box30{
+    width: 30%;
+    height: 600px;
+    background-color: rgb(209, 209, 209);
+    float: left;
+    text-align: left;
+  padding-right:5px;
+  padding-left:5px;
+margin-right:5px;
+margin-left:5px;
+opacity: 0.9;
+
+}
+
+.text-primary30 {
+  color:#ffffff;
+  text-align: center;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+
+}
+#box40{
+
+  width: 33.3%;
+height: 600px;
+    text-align: left;
+    background-color: rgb(209, 209, 209);
+    float: left;
+    padding-right:5px;
+    padding-left:5px;
+  margin-right:5px;
+  margin-left:5px;
+  opacity: 0.9;
+}
+#box31{
+  width: 33.3%;
+  height: 600px;
+  background-color: rgb(209, 209, 209);
+  float: left;
+  text-align: left;
+  padding-right:5px;
+  padding-left:5px;
+margin-right:5px;
+margin-left:5px;
+opacity: 0.9;
+   }
+
+/*este es para videos1.html*/
+
+#videos0 {
+    width: auto;
+    height: auto;
+    background-color: white;
+    
+}
+
+#video1{
+    width: auto;
+    height: auto;
+       float: left;
+    }
+#espacioblanco{
+     width: auto;
+    height: auto;
+    
+}
+
+
+#video2{
+    position: sticky
+    width: auto;
+    height: auto;
+       float: right;
+    
+}
+
+#videos .shows1 h1{
+    
+  text-align: left;
+  color:#cc0000;
+  text-shadow: 1px  0px 0px black,
+             0px  1px 0px black,
+            -1px  0px 0px black,
+             0px -1px 0px black;
+    padding
+}
+#videos .shows2 h1{
+  color:#cc0000;
+  text-shadow: 1px  0px 0px black,
+             0px  1px 0px black,
+            -1px  0px 0px black,
+             0px -1px 0px black;
+}
+
+    
+    
+    
+}
+
+   #contact-form .form-group {
+     margin-bottom: 20px;
+   }
+
+   #contact-form label {
+     display: block;
+     margin-bottom: 5px;
+   }
+
+   #contact-form input,
+   #contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     border: 1px #ddd solid;
+   }
+
+   #contact-form textarea {
+     height: 200px;
+   }
+
+
+   #contact-form input:focus,
+   #contact-form textarea:focus {
+     outline: none;
+     border-color: #5BBF21;
+   }
+
+   #contact-form .box30{
+     width: 33.3%;
+     height: 300px;
+     background-color: red;
+     float: center;
+   }
